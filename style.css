@@ -4,15 +4,17 @@
 }
 
 body {
-    
+    font-family: 'Roboto';
 }
+
 .hero,
 .footer {
     background-color: #1f2937;
 }
 
 button {
-    color:#3882f6;  
+    background-color:#3882f6;
+    color: #e5e7eb;  
 }
 
 .action {
@@ -61,4 +63,34 @@ img {
     border-radius: 15px;
     height:auto;
     width: 120px;
+}
+
+/* Flexbox working area*/
+* {
+    outline: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    padding: 0px 100px; 
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-links {
+    display: flex;
+    justify-content: right;
+}
+
+.hero2 {
+    display: flex;
 }
