@@ -54,3 +54,11 @@ button {
     font-weight: 200;
 
 }
+
+img {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 15px;
+    height:auto;
+    width: 120px;
+}
