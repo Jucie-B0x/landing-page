@@ -20,17 +20,19 @@ button {
 .action {
     background-color: #3882f6;
 }
-.hero   {
+.hero2  {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
 }
 
-.hero2,
-.header-links,
-.footer {
+.sub-text,
+li,
+.footer,
+.hero-image {
     font-size: 18px;
     color: #e5e7eb;
+    list-style: none;
 }
 
 .logo {
@@ -76,21 +78,47 @@ body {
 }
 
 .hero {
+    display: flex;
+    flex-flow: column wrap;
     padding: 0px 100px; 
-
+    height: 500p;
+    padding-bottom: 100px;
 }
+    
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+.logo {
+    padding: 20px;
 }
 
 
-.header-links {
+ul {
     display: flex;
     justify-content: right;
+    padding:  20px;
+    text-decoration: none;
+}
+li {
+    padding-left: 20px;
 }
 
-.hero2 {
-    display: flex;
+.hero2,
+.sub-text  {
+   display: flex;
+   flex-wrap: wrap;
+   width:425px;
+}
+
+button {
+    width: 200px;
+    
+}
+
+.hero-image {
+    justify-content: right;
 }
