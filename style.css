@@ -35,15 +35,18 @@ button {
 .sub-text,
 li,
 .footer,
-.hero-image {
+.hero-image,
+.call-sub {
     font-size: 18px;
     color: #e5e7eb;
     list-style: none;
 }
 
-.logo {
+.logo,
+.call {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 .information {
@@ -80,9 +83,7 @@ img {
 }
 
 /* Flexbox working area*/
-* {
-    outline: 1px solid red;
-}
+
 
 body {
     display: flex;
@@ -195,4 +196,30 @@ li {
     display: flex;
     padding: 0 150px 75px 150px;
     justify-content: right; 
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 50px 0;
+    margin: 50px;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+}
+.act-but {
+    display: flex;
+    border: solid 5px #e5e7eb;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
 }
