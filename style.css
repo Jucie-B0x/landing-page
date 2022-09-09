@@ -6,8 +6,6 @@
 
 body {
     font-family: 'Roboto';
-    display: flex;
-    flex-direction: column;
 }
 
 .hero,
@@ -83,6 +81,7 @@ img {
 body {
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 
 .hero {
@@ -140,9 +139,7 @@ li {
     justify-content: space-between;
 }
 
-.content {
-    display: flex;
-}
+
 
 .image-row {
     display: flex;
