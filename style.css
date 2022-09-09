@@ -1,10 +1,13 @@
 * {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
 }
 
 .hero,
@@ -13,14 +16,19 @@ body {
 }
 
 button {
-    background-color:#3882f6;
-    color: #e5e7eb;  
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 200px;
+    height:50px;
 }
 
 .action {
     background-color: #3882f6;
 }
-.hero2  {
+
+.hero2 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
@@ -63,7 +71,7 @@ img {
     border-style: solid;
     border-color: #3882f6;
     border-radius: 15px;
-    height:auto;
+    height: 177px;
     width: 120px;
 }
 
@@ -80,11 +88,11 @@ body {
 .hero {
     display: flex;
     flex-flow: column wrap;
-    padding: 0px 100px; 
-    height: 500p;
-    padding-bottom: 100px;
+    padding: 0px 150px 150px 150px;
+    height: 700px;
+
 }
-    
+
 
 .header {
     display: flex;
@@ -100,25 +108,42 @@ body {
 ul {
     display: flex;
     justify-content: right;
-    padding:  20px;
+    padding: 20px;
     text-decoration: none;
 }
+
 li {
     padding-left: 20px;
 }
 
-.hero2,
-.sub-text  {
-   display: flex;
-   flex-wrap: wrap;
-   width:425px;
+#hero {
+    display: flex;
+    justify-content: space-between;
 }
 
-button {
-    width: 200px;
-    
-}
 
 .hero-image {
-    justify-content: right;
+    display: flex;
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+
+}
+
+.left {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 0;
+    width: 425px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+}
+
+.image-row {
+    display: flex;
 }
