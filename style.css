@@ -65,6 +65,12 @@ li,
 
 }
 
+.author{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
 img {
     border-style: solid;
     border-color: #3882f6;
@@ -172,4 +178,21 @@ li {
     display: flex;
     text-align: center;
     width: 200px;
+}
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 50px;
+}
+.words {
+    justify-content: center;
+    padding: 75px 150px 0px 150px;
+}
+
+.author {
+    display: flex;
+    padding: 0 150px 75px 150px;
+    justify-content: right; 
 }
