@@ -113,7 +113,6 @@ body {
 
 ul {
     display: flex;
-    justify-content: right;
     padding: 20px;
     text-decoration: none;
 }
